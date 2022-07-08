@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
+  siteName: 'Aneta Nejman Portfolio',
   tagline: 'A Nuxt.js Theme for Netlify CMS',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
@@ -18,6 +18,20 @@ export default {
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
+    {
+      name: 'About',
+      link: '#about'
+    },
+    {
+      name: 'Projects',
+      link: '#projects'
+    },
+    {
+      name: 'Contact',
+      link: '#contact'
+    },
+    
+  /* original
     {
       name: 'About',
       link: '/about'
@@ -40,6 +54,7 @@ export default {
       link: 'https://awake-premium-lp.netlify.com/',
       target: '_blank'
     }
+*/
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -65,6 +80,7 @@ export default {
   },
 
   // Newsletter Subscribe
+  /*
   newsletter: {
     on: true,
     heading: 'Subscribe to Our Newsletter',
@@ -81,6 +97,7 @@ export default {
       formAction: ''
     }
   },
+  */
 
   // Categories
   categories: {
