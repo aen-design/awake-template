@@ -12,6 +12,37 @@
     padding:0;
   }
 }
+
+:root {
+  --space-mono: 'Space Mono', sans-serif;
+  --work-sans: 'Work Sans', sans-serif;
+  --rubik: 'Rubik', sans-serif;
+  
+  --display: 'Space Mono', sans-serif;
+  --copy: 'Work Sans', sans-serif;
+  
+  --black: #1a0008;
+  --white: #fefefe;
+  --gray: #e0e0e0;
+  --accent: #870028;
+  --accent2: #40a3c8;
+  --background: #fafafa;
+  
+  --line-height: 160%;
+  
+  --h1: 5.6rem;
+  --lh1: calc( var(--h1) * 1.15);
+  
+  --h2: 2.1rem;
+  --lh2: calc( var(--h2) * 1.15);
+  
+  --h3: 1.15rem;
+  --lh3: calc( var(--h3) * 1.15);
+  
+  --p1: 1.10rem;
+  --lh-p1: calc( var(--p1) * 1.15);
+}
+
 code{
   color:#e7155a;
   background: #f8f8f8;
